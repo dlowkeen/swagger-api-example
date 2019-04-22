@@ -1,0 +1,30 @@
+{
+  "name": "swagger-api-example",
+  "version": "1.0.0",
+  "description": "Test Repository to generate dynamic documentation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dlowkeen/swagger-api-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dlowkeen/swagger-api-example/issues"
+  },
+  "homepage": "https://github.com/dlowkeen/swagger-api-example#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "swagger-jsdoc": "^3.2.9",
+    "swagger-ui-express": "^4.0.2"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.4",
+    "@types/express": "^4.16.1"
+  }
+}
