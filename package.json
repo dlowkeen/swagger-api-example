@@ -4,6 +4,8 @@
   "description": "Test Repository to generate dynamic documentation",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
+    "build": "tsc -P .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

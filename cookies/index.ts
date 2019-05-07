@@ -28,10 +28,10 @@ router.route('').post(cookies.addOne);
 
 /**
  * @swagger
- * /ice-cream:
+ * /cookies:
  *    get:
  *      tags:
- *          - Ice Cream
+ *          - Cookies
  *      summary: This should return all cookie flavors.
  *      consumes:
  *        - application/json
@@ -43,10 +43,10 @@ router.route('').get(cookies.getAll);
 
 /**
  * @swagger
- * /cookie/:flavorId:
+ * /cookies/:flavorId:
  *    get:
  *      tags:
- *          - Cookie
+ *          - Cookies
  *      summary: This should return the flavor and id of the specified cookie
  *      consumes:
  *        - application/json

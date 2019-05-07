@@ -10,6 +10,7 @@ let router = express.Router();
  *      tags:
  *          - Ice Cream
  *      summary: This should create a new ice cream.
+ *      description: This is where you can give some background as to why this route is being created or perhaps reference a ticket number.
  *      consumes:
  *        - application/json
  *      parameters:
