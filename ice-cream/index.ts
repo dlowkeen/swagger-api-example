@@ -33,7 +33,7 @@ router.route('').post(iceCream.addOne);
  *    get:
  *      tags:
  *          - Ice Cream
- *      summary: This should return all cookie flavors.
+ *      summary: This should return all ice cream flavors.
  *      consumes:
  *        - application/json
  *      responses:
